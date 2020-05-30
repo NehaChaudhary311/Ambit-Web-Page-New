@@ -12,7 +12,7 @@ class CarouselTry extends React.Component{
             paddingBottom : 40,
             paddingLeft : 100,
             paddingRight : 100,
-            backgroundColor: "white",
+            //backgroundColor: "white",
             color: "black",
             display: "inline-block",
             fontFamily: "monospace",
@@ -25,7 +25,7 @@ class CarouselTry extends React.Component{
         <div>
             <Container fluid={true} style={myStyle}>
                 <Row> 
-                    <Col><Button>Proof Reading</Button></Col>
+                    <Col><Button href="/proofreader">Proof Reading</Button></Col>
                     <Col><Button>Author Filter</Button></Col>
                     <Col><Button>Virality</Button></Col>
                     <Col><Button>Goals</Button></Col>   
