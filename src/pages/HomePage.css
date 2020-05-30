@@ -5,14 +5,33 @@
     /* Center and scale the image nicely */
     background-position: center;
    background-repeat: no-repeat;
-    margin-bottom:10px;
-    padding-bottom:10px;
     background-size: 100% 100%
     
 }
-/*height: 100%; 
-
+.headline{
+    color: rgb(255, 255, 255);
+}
+.translucent-box{
+    background-color: rgba(0, 0, 0, 0.3);
+    stroke-opacity: inherit;
+    height: 20;
+    align-items: center;
+    color : white;
+    max-width: fit-content;
+    border-radius: 20px;
+    
+}
+.arrow{
+    color: aliceblue;
+    size: 40px;
+}
+.background-2{
+    background: url("../assets/images/brown-pen.jpg"); 
+    height:610px;
+    opacity: 0.9;
     /* Center and scale the image nicely */
-    /*background-position: center;*/
-   /* background-repeat: no-repeat;*/
-    /*background-size: cover;*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}

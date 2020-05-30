@@ -25,15 +25,20 @@ class ProofReaderPage extends React.Component {
     render() {
         
       return (
-        <Form onSubmit={this.handleSubmit} className ="proof-reader">
-          <label>
-            Check you English text for grammar, spelling, and punctuation errors with our free grammar checker.
-        </label>
+        <div className = "proof-read-background">
+          <Form onSubmit={this.handleSubmit} className ="proof-reader">
+            <label>
+              Check you English text for grammar, spelling, and punctuation errors with our free grammar checker.
+            </label>
             <br></br>
-            <textarea cols ="100" rows="12" value={this.state.value} onChange={this.handleChange} />
-            <br></br>
-          <Button type="submit" value="Submit" href="/proofreaderresults">Proof Read</Button>
+            <div class="form-group-shadow-textarea">
+              <textarea cols ="70" rows="12" placeholder="Write something here..." />
+            </div>
+                        <br></br>
+            <Button type="submit" value="Submit" href="/proofreaderresults">Proof Read</Button>
         </Form>
+        </div>
+        
       );
     }
   }

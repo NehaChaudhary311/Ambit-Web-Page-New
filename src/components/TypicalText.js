@@ -7,18 +7,21 @@ class TypicalText extends React.Component{
         const typeTextStyle = {
             padding: 15,
             fontFamily: "monospace",
-            fontSize: 35,
+            fontSize: 22,
             textAlign: "center"
           };
     
     
     return(
         <div style ={typeTextStyle}>
-             <Typical
-        steps={['Do more with your writing ', 1000, 'Enhance the scope of your writing', 1000]}
-        loop={Infinity}
-        wrapper="center"
+          <p>When Shakespeare writes your{''} 
+          <Typical
+          loop={Infinity}
+          wrapper="center"
+        steps={['articles.', 1000, 'essays.', 1000, 'journals.', 1000,]}
+        
       ></Typical>
+      </p>
         </div>
 
     );

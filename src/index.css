@@ -57,3 +57,38 @@ code {
   color: #EE6352;
   padding: 10px 15px;
 }
+.sign-in-up-background{
+  background: url(./assets/images/ntbk-pencil.jpg);
+  height:610px;
+    /* Center and scale the image nicely */
+    background-position: center;
+   background-repeat: no-repeat;
+    background-size: 100% 100%
+}
+.proof-read-background{
+  padding-top: 90px;
+  padding-left: 100px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 16px;
+  background: url(./assets/images/pencil.jpg);
+  height:610px;
+    /* Center and scale the image nicely */
+    background-position: center;
+   background-repeat: no-repeat;
+    background-size: 100% 100%
+  
+}
+.shadow-textarea textarea.form-control::placeholder {
+  font-weight: 300;
+}
+.shadow-textarea textarea.form-control {
+  padding-left: 0.8rem;
+}
+/*Not working resize*/
+textarea{
+  resize: none;
+}
+.form-group-shadow-textarea{
+  outline: thick;
+
+}

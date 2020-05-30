@@ -8,27 +8,45 @@ import Button from 'react-bootstrap/Button';
 class CarouselTry extends React.Component{
     render(){
         const myStyle = {
-            paddingTop: 40,
+            paddingTop: 150,
             paddingBottom : 40,
-            paddingLeft : 100,
+            paddingLeft : 220,
             paddingRight : 100,
             //backgroundColor: "white",
             color: "black",
             display: "inline-block",
             fontFamily: "monospace",
-            fontSize: 32,
+            fontSize: 35,
             textAlign: "center"
           };
-    
+        const description = {
+            fontSize : 15,
+            color : "white",
+            paddingTop : 20
+        };
     
     return(
         <div>
             <Container fluid={true} style={myStyle}>
                 <Row> 
-                    <Col><Button href="/proofreader">Proof Reading</Button></Col>
-                    <Col><Button>Author Filter</Button></Col>
-                    <Col><Button>Virality</Button></Col>
-                    <Col><Button>Goals</Button></Col>   
+                    <Col>
+                        <Button variant="secondary" size="lg" href="/proofreader">Proof Reading</Button>
+                        <p style ={description}>Blah blah blah blah blah Blah blah blah blah blah</p>
+                    </Col>
+                    
+                    <Col>
+                        <Button variant="secondary" size="lg">Author Filter</Button>
+                        <p style ={description}>Blah blah blah blah blah Blah blah blah blah blah</p>
+                    </Col>
+
+                    <Col>
+                        <Button variant="secondary" size="lg">Virality</Button>
+                        <p style ={description}>Blah blah blah blah blah Blah blah blah blah blah</p>
+                    </Col>
+                    <Col>
+                        <Button variant="secondary" size="lg">Goals</Button>
+                        <p style ={description}>Blah blah blah blah blah Blah blah blah blah blah</p>
+                    </Col>   
                 </Row>
             </Container>
         </div>

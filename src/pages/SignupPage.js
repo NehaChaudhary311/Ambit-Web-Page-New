@@ -23,25 +23,9 @@ class SignupPage extends React.Component {
 
 
 
-
-
-    handleSubmit = (event) => {
-        event.preventDefault();
-
-        console.log(event.target);
-
-        this.setState({
-            disabled: true
-        });
-
-        
-
-    }
-
-
     render() {
         return(
-            <div>
+            <div className="sign-in-up-background">
                 <Row className="justify-content-center py-5">
                     <Col md={8} sm={12}>
                         <h3 className="display-4 font-weight-light">Member Signup</h3> 
