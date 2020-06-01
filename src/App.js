@@ -1,8 +1,6 @@
 import React from 'react';
 import {BrowserRouter as Router, Route } from 'react-router-dom';
-import Navbar from 'react-bootstrap/Navbar';
 import './App.css';
-import logo from './assets/images/Logo.JPG';
 
 //import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
@@ -12,7 +10,7 @@ import SignupPage from './pages/SignupPage';
 import ProofReaderPage from './pages/ProofReaderPage';
 import ProofReaderResultsPage from './pages/ProofReaderResultsPage';
 import Nav from './components/Nav';
-
+import ComingSoonPage from './pages/ComingSoonPage';
 
 
 class App extends React.Component {
@@ -45,6 +43,7 @@ class App extends React.Component {
           <Route path="/signup" render={() => <SignupPage />} />
           <Route path="/proofreader" render={() => <ProofReaderPage />} />
           <Route path="/proofreaderresults" render={() => <ProofReaderResultsPage />}/>
+          <Route path="/comingsoon" render={() => <ComingSoonPage />}/>
       </Router>
 
       </div>

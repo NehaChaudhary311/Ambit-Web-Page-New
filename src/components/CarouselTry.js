@@ -31,21 +31,21 @@ class CarouselTry extends React.Component{
                 <Row> 
                     <Col>
                         <Button variant="secondary" size="lg" href="/proofreader">Proof Reading</Button>
-                        <p style ={description}>Blah blah blah blah blah Blah blah blah blah blah</p>
+                        <p style ={description}>Correct your grammar, spelling and punctuation with our AI-powered system.</p>
                     </Col>
                     
                     <Col>
                         <Button variant="secondary" size="lg">Author Filter</Button>
-                        <p style ={description}>Blah blah blah blah blah Blah blah blah blah blah</p>
+                        <p style ={description}>Change your writng into the style of your preferred author.</p>
                     </Col>
 
                     <Col>
-                        <Button variant="secondary" size="lg">Virality</Button>
-                        <p style ={description}>Blah blah blah blah blah Blah blah blah blah blah</p>
+                        <Button href="/comingsoon" variant="secondary" size="lg">Virality</Button>
+                        <p style ={description}>Add viral writing features to your tweet and blog.</p>
                     </Col>
                     <Col>
-                        <Button variant="secondary" size="lg">Goals</Button>
-                        <p style ={description}>Blah blah blah blah blah Blah blah blah blah blah</p>
+                        <Button href="/comingsoon" variant="secondary" size="lg">Goals</Button>
+                        <p style ={description}>Convert your writing for a specific goal like negotiation, admiration, sales pitch etc.</p>
                     </Col>   
                 </Row>
             </Container>

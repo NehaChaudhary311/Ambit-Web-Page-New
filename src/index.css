@@ -92,3 +92,30 @@ textarea{
   outline: thick;
 
 }
+.logo_ambit{
+  height: 60px;
+  width: 80px;
+}
+.logo_ambit_text{
+  height: 40px;
+  width : 80px;
+}
+.background-coming-soon{
+  background: url(./assets/images/dark-laptop.jpg);
+  height:610px;
+    /* Center and scale the image nicely */
+    background-position: center;
+   background-repeat: no-repeat;
+   
+   
+    background-size: 100% 100%;
+  color: rgb(242, 246, 250);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.input_box{
+  background-color: rgb(255, 255, 255, 0.7);
+  border: none;
+  outline:none;
+  height:40px;
+  width: 500px;
+}

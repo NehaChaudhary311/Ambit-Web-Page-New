@@ -14,11 +14,11 @@ class TypicalText extends React.Component{
     
     return(
         <div style ={typeTextStyle}>
-          <p>When Shakespeare writes your{''} 
+          <p>When your favourite author writes your{''} 
           <Typical
           loop={Infinity}
           wrapper="center"
-        steps={['articles.', 1000, 'essays.', 1000, 'journals.', 1000,]}
+        steps={['articles.', 930, 'essays.', 930, 'journals.',930,]}
         
       ></Typical>
       </p>

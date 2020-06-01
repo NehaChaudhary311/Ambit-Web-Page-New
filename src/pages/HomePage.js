@@ -1,13 +1,7 @@
 import React from 'react';
-import { useState, useEffect } from 'react';
-import desktopImage from '../assets/images/writing-coffee-dark.jpg';
-import mobileImage from '../assets/images/writing-coffee-dark.jpg';
 import Hero from '../components/Hero';
 import TypicalText from '../components/TypicalText';
 import CarouselTry from '../components/CarouselTry';
-import Navbar from 'react-bootstrap/Navbar';
-import Nav from 'react-bootstrap/Nav';
-import { Link } from 'react-router-dom';
 import './HomePage.css';
 import { IoIosArrowDropdown } from "react-icons/io";
 
