@@ -24,6 +24,11 @@ class CarouselTry extends React.Component{
             color : "white",
             paddingTop : 20
         };
+        const comingsoon = {
+            fontSize : 13,
+            color : "white",
+            paddingTop : 0.2
+        };
     
     return(
         <div>
@@ -42,10 +47,12 @@ class CarouselTry extends React.Component{
                     <Col>
                         <Button href="/comingsoon" variant="secondary" size="lg">Virality</Button>
                         <p style ={description}>Add viral writing features to your tweet and blog.</p>
+                        <p style ={comingsoon}>(Coming Soon)</p>
                     </Col>
                     <Col>
                         <Button href="/comingsoon" variant="secondary" size="lg">Goals</Button>
                         <p style ={description}>Convert your writing for a specific goal like negotiation, admiration, sales pitch etc.</p>
+                        <p style ={comingsoon}>(Coming Soon)</p>                    
                     </Col>   
                 </Row>
             </Container>

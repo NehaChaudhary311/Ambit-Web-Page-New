@@ -2,6 +2,7 @@ import React from 'react';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 
+
 class ProofReaderPage extends React.Component {
     constructor(props) {
       super(props);
@@ -27,15 +28,19 @@ class ProofReaderPage extends React.Component {
       return (
         <div className = "proof-read-background">
           <Form onSubmit={this.handleSubmit} className ="proof-reader">
+          <div align="left">
             <label>
               Check you English text for grammar, spelling, and punctuation errors with our free grammar checker.
             </label>
             <br></br>
-            <div class="form-group-shadow-textarea">
-              <textarea cols ="70" rows="12" placeholder="Write something here..." />
+            <div align="justify" >
+              <textarea  rows="10" cols="110" placeholder="Write something here..."></textarea>
             </div>
                         <br></br>
-            <Button type="submit" value="Submit" href="/proofreaderresults">Proof Read</Button>
+            
+            <Button variant="secondary" type="submit" value="Submit" href="/proofreaderresults">Proof Read</Button>
+          </div>
+            
         </Form>
         </div>
         

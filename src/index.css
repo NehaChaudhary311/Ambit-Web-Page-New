@@ -78,20 +78,28 @@ code {
     background-size: 100% 100%
   
 }
-.shadow-textarea textarea.form-control::placeholder {
-  font-weight: 300;
+/*label,
+textarea {
+    font-size: .8rem;
+    letter-spacing: 1px;
+}*/
+textarea {
+    padding: 10px;
+    line-height: 1.5;
+    border-radius: 7px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+    resize : none;
 }
-.shadow-textarea textarea.form-control {
-  padding-left: 0.8rem;
+textarea:focus {
+  outline: medium;
 }
-/*Not working resize*/
-textarea{
-  resize: none;
-}
-.form-group-shadow-textarea{
-  outline: thick;
 
+label {
+    display: block;
+    margin-bottom: 10px;
 }
+
 .logo_ambit{
   height: 60px;
   width: 80px;
